@@ -38,7 +38,7 @@ const BookNow = () => {
     e.preventDefault();
     const emailBody = `New Photography Booking Request from Studio Icon Website:\n\nCLIENT INFORMATION:\n- Name: ${formData.name}\n- Email: ${formData.email}\n- Phone: ${formData.phone}\n\nPHOTOGRAPHY DETAILS:\n- Service Type: ${formData.service}\n- Package Preference: ${formData.package}\n- Preferred Date: ${date ? format(date, "PPP") : 'Not specified'}\n- Location: ${formData.location || 'Not specified'}\n- Number of Guests: ${formData.guests || 'Not specified'}\n- Duration Needed: ${formData.duration || 'Not specified'}\n- Budget Range: ${formData.budget || 'Not specified'}\n\nCLIENT MESSAGE:\n${formData.message || 'No additional message'}\n\nSTUDIO ICON CONTACT DETAILS:\n- Email: studioicon144@gmail.com\n- Phone: +91 9585924107\n- Location: Chennai, Tamil Nadu\n\nPlease contact the client at ${formData.phone} or ${formData.email} to discuss their photography requirements.`;
 
-    const mailtoLink = `mailto:jeevanandhammk21@gmail.com?subject=Photography Booking Request - ${formData.name}&body=${encodeURIComponent(emailBody)}`;
+    const mailtoLink = `mailto:studioicon144@gmail.com?subject=Photography Booking Request - ${formData.name}&body=${encodeURIComponent(emailBody)}`;
     window.location.href = mailtoLink;
 
     toast({

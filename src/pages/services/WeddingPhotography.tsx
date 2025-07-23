@@ -19,10 +19,10 @@ const WeddingPhotography = () => {
   const packages = [
     {
       name: "Essential Wedding",
-      price: "₹75,000",
+      price: "₹80,000",
       duration: "8 hours",
       features: [
-        "Pre-wedding consultation",
+        
         "8 hours of coverage",
         "500+ edited photos",
         "Online gallery",
@@ -31,10 +31,10 @@ const WeddingPhotography = () => {
     },
     {
       name: "Premium Wedding",
-      price: "₹1,25,000",
+      price: "₹1,10,000",
       duration: "Full Day",
       features: [
-        "Pre-wedding consultation",
+        
         "Full day coverage",
         "800+ edited photos",
         "Second photographer",
@@ -46,10 +46,11 @@ const WeddingPhotography = () => {
     },
     {
       name: "Luxury Wedding",
-      price: "₹2,00,000",
+      price: "₹1,60,000",
       duration: "2 Days",
       features: [
         "Pre-wedding consultation",
+        "Drone Shoot",
         "2 days coverage",
         "1200+ edited photos",
         "Two photographers",
@@ -64,12 +65,12 @@ const WeddingPhotography = () => {
 
   const testimonials = [
     {
-      name: "Anjali & Rohit",
+      name: "Senthil & Pornima",
       review: "We were blown away by the photos! The team captured every moment beautifully.",
       rating: 5
     },
     {
-      name: "Kiran & Meena",
+      name: "Lokesh & Saranya",
       review: "From pre-wedding to reception, everything was perfect. Highly recommended!",
       rating: 5
     }

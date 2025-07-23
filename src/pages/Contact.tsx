@@ -26,7 +26,7 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const whatsappNumber = '919566931353';
+    const whatsappNumber = '919585924107';
     const textMessage = `*Photography Inquiry*
 🧡 *Name:* ${formData.name}
 💌 *Email:* ${formData.email}
@@ -54,9 +54,9 @@ const Contact = () => {
   ];
 
   const contactInfo = [
-    { icon: Phone, title: 'Phone', detail: '9566931353', description: 'Call or text anytime' },
+    { icon: Phone, title: 'Phone', detail: '9585924107', description: 'Call or text anytime' },
     { icon: Mail, title: 'Email', detail: 'studioicon144@gmail.com', description: 'I respond within 24 hours' },
-    { icon: MapPin, title: 'Chennai', detail: 'Tamilnadu', description: 'Travel available worldwide' },
+    { icon: MapPin, title: 'Chennai', detail: 'Tamilnadu', description: 'Travel available in TamilNadu' },
     { icon: Clock, title: 'Hours', detail: 'Mon-Fri 9AM-6PM', description: 'Flexible scheduling available' }
   ];
 
