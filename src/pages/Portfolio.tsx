@@ -83,7 +83,7 @@ const Portfolio = () => {
         <h2 className="text-4xl font-bold mb-4">Inspired by the Moments?</h2>
         <p className="text-lg mb-8 max-w-xl mx-auto">Let's capture your story next. Book a session and let's make magic together!</p>
         <Button asChild size="lg" className="bg-white text-gray-800 hover:bg-gray-200">
-          <a href="/contact">Book Your Session</a>
+          <a href="/book-now">Book Your Session</a>
         </Button>
       </section>
 
