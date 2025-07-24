@@ -264,10 +264,10 @@ const Home = () => {
         <div className="max-w-3xl mx-auto relative z-10">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             {[
-              "/src/assets/event1.jpeg",
-              "/src/assets/port4.jpeg", 
-              "/src/assets/home2.jpeg",
-              "/src/assets/port3.jpeg"
+              "/event1.jpeg",
+              "/port4.jpeg", 
+              "/home2.jpeg",
+              "/port3.jpeg"
             ].map((image, index) => (
               <div 
                 key={index}
