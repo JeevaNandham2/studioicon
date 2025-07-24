@@ -18,11 +18,11 @@ const FloatingCTA = () => {
 
   return (
     <div className="fixed bottom-6 right-6 z-40 animate-fade-in">
-      <div className="relative">
+      <div className="relative mb-12">
         <Button
           asChild
           size="lg"
-          className="bg-green-600 hover:bg-primary-dark text-primary-foreground shadow-glow hover:shadow-elegant transition-all duration-300 rounded-full px-6 py-4"
+          className="bg-blue-700 hover:bg-primary-dark text-primary-foreground shadow-glow hover:shadow-elegant transition-all duration-300 rounded-full px-6 py-4"
         >
           <Link to="/book-now" className="flex items-center space-x-2">
             <Camera className="h-5 w-5" />

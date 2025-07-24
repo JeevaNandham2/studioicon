@@ -264,10 +264,10 @@ const Home = () => {
         <div className="max-w-3xl mx-auto relative z-10">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             {[
-              "/lovable-uploads/b1b7223c-e566-4281-82bf-6409cf3a62e7.png",
-              "/lovable-uploads/70d742e8-c0b5-4331-9053-5ddf733a7dd3.png", 
-              "/lovable-uploads/e883d4cf-637c-474c-9856-12b1df9a8131.png",
-              "/lovable-uploads/a517ee2d-3cc6-4b17-a27b-9a60a5a8c610.png"
+              "/src/assets/event1.jpeg",
+              "/src/assets/port4.jpeg", 
+              "/src/assets/home2.jpeg",
+              "/src/assets/port3.jpeg"
             ].map((image, index) => (
               <div 
                 key={index}
