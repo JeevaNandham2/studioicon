@@ -83,7 +83,7 @@ const About = () => {
             <div className="relative slide-in-left">
               <div className="aspect-[4/5] rounded-3xl overflow-hidden shadow-2xl relative">
                 <img 
-                  src="/lovable-uploads/a517ee2d-3cc6-4b17-a27b-9a60a5a8c610.png" 
+                  src="/port3.jpeg" 
                   alt="Studio Icon Photography" 
                   className="w-full h-full object-cover hover-glow"
                 />
@@ -277,7 +277,7 @@ const About = () => {
             
             <div className="animate-on-scroll">
               <img 
-                src="/lovable-uploads/b1b7223c-e566-4281-82bf-6409cf3a62e7.png" 
+                src="/event1.jpeg" 
                 alt="StudioIcon Process" 
                 className="rounded-lg shadow-elegant w-full h-[600px] object-cover"
               />
